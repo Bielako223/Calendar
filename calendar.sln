@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calendar", "calendar\calendar.csproj", "{DEDC8E56-A3F4-4ED8-AEDB-24AE8DD4C6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{CDABC6B7-6EF7-41D8-B579-57F2507155A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEDC8E56-A3F4-4ED8-AEDB-24AE8DD4C6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDC8E56-A3F4-4ED8-AEDB-24AE8DD4C6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDC8E56-A3F4-4ED8-AEDB-24AE8DD4C6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDC8E56-A3F4-4ED8-AEDB-24AE8DD4C6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDABC6B7-6EF7-41D8-B579-57F2507155A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDABC6B7-6EF7-41D8-B579-57F2507155A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDABC6B7-6EF7-41D8-B579-57F2507155A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDABC6B7-6EF7-41D8-B579-57F2507155A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F52252D-6A74-439C-8CDC-38A8713E95DF}
+	EndGlobalSection
+EndGlobal
