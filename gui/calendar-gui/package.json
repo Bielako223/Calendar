@@ -23,7 +23,6 @@
     "react-time-picker": "^6.0.4",
     "react-tinder-card": "^1.6.2",
     "serve": "^14.2.0",
-    "styled-components": "^6.0.0-rc.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -48,10 +47,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "engines": {
-      "node": "16.13.2",
-      "npm": "6.14.9"
-    }
+    ]
   }
 }
