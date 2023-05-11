@@ -1,0 +1,12 @@
+D:\programowanie\calendar\API\DataAccess\bin\Release\net7.0\DataAccess.deps.json
+D:\programowanie\calendar\API\DataAccess\bin\Release\net7.0\DataAccess.dll
+D:\programowanie\calendar\API\DataAccess\bin\Release\net7.0\DataAccess.pdb
+D:\programowanie\calendar\API\DataAccess\obj\Release\net7.0\DataAccess.csproj.AssemblyReference.cache
+D:\programowanie\calendar\API\DataAccess\obj\Release\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\programowanie\calendar\API\DataAccess\obj\Release\net7.0\DataAccess.AssemblyInfoInputs.cache
+D:\programowanie\calendar\API\DataAccess\obj\Release\net7.0\DataAccess.AssemblyInfo.cs
+D:\programowanie\calendar\API\DataAccess\obj\Release\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\programowanie\calendar\API\DataAccess\obj\Release\net7.0\DataAccess.dll
+D:\programowanie\calendar\API\DataAccess\obj\Release\net7.0\refint\DataAccess.dll
+D:\programowanie\calendar\API\DataAccess\obj\Release\net7.0\DataAccess.pdb
+D:\programowanie\calendar\API\DataAccess\obj\Release\net7.0\ref\DataAccess.dll
