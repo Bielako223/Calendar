@@ -168,7 +168,7 @@ export default function CalendarForm(prop) {
 
     <div>
       <Container maxWidth="xl">
-        <Button variant="text" onClick={prop.logOut}>Log Out</Button>
+        <Button sx={{display:{md:'flex'}}} variant="text" onClick={prop.logOut}>Log Out</Button>
 
         <Grid container spacing={3}>
           <Grid item xs={12} md={6}>
@@ -187,7 +187,9 @@ export default function CalendarForm(prop) {
 
                   </Box>
                 ))}
-                <Button onClick={createEvent} variant="outlined" className='addButton'>Add Event</Button>
+                <Box sx={{ display: "flex", alignItems: "center", margin: "0.4rem" }}>
+                <Button sx={{width:{xs:1, md:'auto'}}}  onClick={createEvent} variant="outlined" className='addButton'>Add Event</Button>
+                </Box>
                 <Box>
                   <Typography variant='subtitle1' sx={{ display: "flex", alignItems: "center", paddingLeft: "0.4rem" }}>To Do list:</Typography>
                 </Box>
@@ -201,7 +203,9 @@ export default function CalendarForm(prop) {
                     <IconButton size='small'><HighlightOffIcon fontSize='small' onClick={() => deleteToDo(x.id)} className='delete' /></IconButton>
                   </Box>
                 ))}
-                <Button onClick={createToDo} variant="outlined" className='addButton'>Add To Do</Button>
+                <Box sx={{ display: "flex", alignItems: "center", margin: "0.4rem" }}>
+                <Button sx={{width:{xs:1, md:'auto'}}} onClick={createToDo} variant="outlined" className='addButton'>Add To Do</Button>
+                </Box>
                 {showingCreateNewToDo && <CreateToDo handleclose={createToDo} date={dat.yyyymmdd()} userId={prop.userId} update={updateList} />}
                 {showingCreateNewEvent && <CreateEvent handleclose={createEvent} date={dat.yyyymmdd()} userId={prop.userId} update={updateList} />}
               </Box>
