@@ -1,5 +1,5 @@
-const API_BASE_URL_DEVELOPMENT = 'http://localhost:5055';
-const API_BASE_URL_PRODUCTION = '';
+const API_BASE_URL_DEVELOPMENT = 'https://calendartodoapi.azurewebsites.net';
+const API_BASE_URL_PRODUCTION = 'http://localhost:5055';
 
 const ENDPOINTS ={
     GET_TODO: 'todo_get',
