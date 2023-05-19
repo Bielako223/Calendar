@@ -8,11 +8,14 @@ import CreateEvent from "./createEvent";
 import EditToDo from "./editToDo";
 import EditEvent from "./editEvent";
 import Container from "@mui/material/Container";
-import { Grid, Paper, Stack, Box, Typography, Button, IconButton } from '@mui/material';
+import { Grid, Paper, Stack, Box, Typography, Button, IconButton, ThemeProvider } from '@mui/material';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import EditIcon from '@mui/icons-material/Edit';
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 import MouseIcon from '@mui/icons-material/Mouse';
+import { createTheme } from '@mui/material/styles';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
 
 
 export default function CalendarForm(prop) {
@@ -36,6 +39,27 @@ export default function CalendarForm(prop) {
     updateList();
 
   }, [dat]);
+
+  const theme = createTheme({
+    palette: {
+      primary: {
+        light: '#357ce0',
+        main: '#3066be',
+        dark: '#002880',
+        contrastText: '#fff',
+      },
+      secondary: {
+        light: '#ff7961',
+        main: '#000000',
+        dark: '#ba000d',
+        contrastText: '#000',
+      },
+    },
+  });
+
+  const toolbarStyle = {
+    minHeight: '30px',
+  };
 
   const createToDo = () => {
     setshowingCreateNewToDo(!showingCreateNewToDo);
@@ -167,8 +191,16 @@ export default function CalendarForm(prop) {
   return (
 
     <div>
+      <ThemeProvider theme={theme}>
+      <Box sx={{ flexGrow: 1, paddingBottom: 2 }}>
+      <AppBar position="static" color="primary">
+      <Toolbar style={toolbarStyle}>
+      <Button sx={{display:{md:'flex'}}} variant="text" color='secondary' onClick={prop.logOut}>Log Out</Button>
+      </Toolbar>
+      </AppBar>
+    </Box>
       <Container maxWidth="xl">
-        <Button sx={{display:{md:'flex'}}} variant="text" onClick={prop.logOut}>Log Out</Button>
+        
 
         <Grid container spacing={3}>
           <Grid item xs={12} md={6}>
@@ -259,9 +291,10 @@ export default function CalendarForm(prop) {
           </Grid>
         </Grid>
       </Container>
+      
       {showingEditNewToDo !== null && <EditToDo todo={showingEditNewToDo} date={dat.yyyymmdd()} close={editToDoForm} />}
       {showingEditNewEvent !== null && <EditEvent event={showingEditNewEvent} close={editEventForm} />}
-
+      </ThemeProvider>
     </div>
 
   );
