@@ -5,7 +5,7 @@ Link: [working-gui-calendar.vercel.app](https://working-gui-calendar.vercel.app/
 
 ## How to Use the Project
 
-* Sign Up or Sign In
+* Sign Up or Sign In.
   <img width="959" alt="sup" src="https://github.com/Bielako223/Calendar/assets/95445529/caae1af9-4d92-4677-8e73-f51a4e9a9825"> 
   <img width="961" alt="sin" src="https://github.com/Bielako223/Calendar/assets/95445529/a0aa4e1a-2b06-4ce4-bbf9-501bae39c7e0"> 
 * On the main page, you can add an event or a Todo list.
