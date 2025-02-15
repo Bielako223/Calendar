@@ -12,7 +12,7 @@ Todo & Calendar Manager is a simple yet powerful app that helps you stay organiz
 - Professionals managing work tasks and important meetings.
 - Anyone looking to stay organized and keep an eye on their upcoming schedule.
 ### Key Features:
-
+> 📌 *Click on the images for better quality!*
 #### Create Daily To-Do Lists:
 Logged-in users can create to-do lists for specific days, adding tasks that help break down your daily goals and stay productive.
 <img width="959" alt="ctodo" src="https://github.com/Bielako223/Calendar/assets/95445529/43cd9da6-76a6-4b65-8e38-f57ba1ed36f5"> 
